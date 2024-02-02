@@ -16,12 +16,12 @@
 		DC9200C32B69B5E80029F569 /* LandmarksUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9200C22B69B5E80029F569 /* LandmarksUITestsLaunchTests.swift */; };
 		DC9200D02B69BA280029F569 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9200CF2B69BA280029F569 /* CircleImage.swift */; };
 		DC9200D22B69FF510029F569 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9200D12B69FF510029F569 /* MapView.swift */; };
-		DC9200D42B6ABCC00029F569 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = DC9200D32B6ABCC00029F569 /* landmarkData.json */; };
 		DC9200D62B6ABD220029F569 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9200D52B6ABD220029F569 /* Landmark.swift */; };
 		DC9200EE2B6ABE910029F569 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9200ED2B6ABE910029F569 /* ModelData.swift */; };
 		DC9200F22B6ABFAE0029F569 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9200F12B6ABFAE0029F569 /* LandmarkRow.swift */; };
 		DC9200F42B6ACABA0029F569 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9200F32B6ACABA0029F569 /* LandmarkList.swift */; };
 		DC9200F62B6ACDD70029F569 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9200F52B6ACDD70029F569 /* LandmarkDetail.swift */; };
+		DC9F59312B6C3DF100AA056D /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = DC9F59302B6C3DF100AA056D /* landmarkData.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,12 +54,12 @@
 		DC9200C22B69B5E80029F569 /* LandmarksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		DC9200CF2B69BA280029F569 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		DC9200D12B69FF510029F569 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
-		DC9200D32B6ABCC00029F569 /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = landmarkData.json; path = BuildingListsAndNavigation/Resources/landmarkData.json; sourceTree = SOURCE_ROOT; };
 		DC9200D52B6ABD220029F569 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 		DC9200ED2B6ABE910029F569 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		DC9200F12B6ABFAE0029F569 /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
 		DC9200F32B6ACABA0029F569 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 		DC9200F52B6ACDD70029F569 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
+		DC9F59302B6C3DF100AA056D /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,9 +110,9 @@
 		DC9200A42B69B5E60029F569 /* Landmarks */ = {
 			isa = PBXGroup;
 			children = (
+				DC9F59302B6C3DF100AA056D /* landmarkData.json */,
 				DC9200F02B6ABF080029F569 /* Model */,
 				DC9200EF2B6ABEFB0029F569 /* Views */,
-				DC9200D32B6ABCC00029F569 /* landmarkData.json */,
 				DC9200A52B69B5E60029F569 /* LandmarksApp.swift */,
 				DC9200A92B69B5E70029F569 /* Assets.xcassets */,
 				DC9200AB2B69B5E70029F569 /* Preview Content */,
@@ -273,7 +273,7 @@
 			files = (
 				DC9200AD2B69B5E70029F569 /* Preview Assets.xcassets in Resources */,
 				DC9200AA2B69B5E70029F569 /* Assets.xcassets in Resources */,
-				DC9200D42B6ABCC00029F569 /* landmarkData.json in Resources */,
+				DC9F59312B6C3DF100AA056D /* landmarkData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
